@@ -1,0 +1,124 @@
+/* body */
+body{
+    background-color: #e9dddd;
+    margin: 0;
+}
+
+p{
+    font-size: 14px;
+}
+
+/* création de la barre de progresssion */
+#progress{
+    background-color: #006128;
+    height: 3px;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+/* header*/
+
+
+/* Titre */
+header > div:nth-child(1){
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+/* Nav */
+ul{
+    margin: 20px;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #612800;
+    border-color: #280061;
+    text-transform: uppercase;
+}
+
+.tome{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tome > div{
+    margin: 10px;
+}/* Fin header */
+
+/* video */
+iframe{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+/* aside */
+aside{
+    flex: 1;
+    position: relative;
+    background-color: #612800;
+    box-shadow: 0px 2px 5px #000000;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: white;
+    font-size: 0.9em;
+    display: flex;
+}
+
+aside > div img{
+    position: relative;
+    width: 100%;
+    margin-left: 20px;
+}
+
+aside > div{
+    margin: 20px;
+}
+
+aside > div p, h1{
+    text-align: center;
+}
+
+/* footer */
+footer > div{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer > div p{
+    margin-top: 20px;
+}
+
+footer > div i{
+    font-size: 3.5em;
+    margin-left: 20px;
+}
+
+footer > div a:nth-child(1){
+    color: #046ee5
+}
+
+footer > div a:nth-child(2){
+    color: #1da1f2;
+}
+
+footer > div a:nth-child(3){
+    color: #934bc8;
+}
+
+footer > div a:nth-child(4){
+    color: #ff0000;
+}
+
