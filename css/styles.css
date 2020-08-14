@@ -1,15 +1,15 @@
 /* body */
-body{
+body {
     background-color: #e9dddd;
     margin: 0;
 }
 
-p{
+p {
     font-size: 14px;
 }
 
 /* création de la barre de progresssion */
-#progress{
+#progress {
     background-color: #006128;
     height: 3px;
     width: 0;
@@ -23,7 +23,7 @@ p{
 
 
 /* Titre */
-header > div:nth-child(1){
+header>div:nth-child(1) {
     width: 50%;
     margin: auto;
     margin-top: 20px;
@@ -31,7 +31,7 @@ header > div:nth-child(1){
 }
 
 /* Nav */
-ul{
+ul {
     margin: 20px;
 }
 
@@ -42,31 +42,33 @@ ul{
     text-transform: uppercase;
 }
 
-.tome{
+.tome {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.tome > div{
+.tome>div {
     margin: 10px;
-}/* Fin header */
+}
+
+/* Fin header */
 
 /* video page accueil */
-iframe{
+iframe {
     display: flex;
     justify-content: center;
     margin: auto;
 }
 
 /* Vidéo page romans*/
-.video{
+.video {
     text-align: center;
-    margin-top: 20px; 
+    margin-top: 20px;
 }
 
 /* début page index */
-aside{
+aside {
     flex: 1;
     position: relative;
     background-color: #612800;
@@ -81,20 +83,22 @@ aside{
     display: flex;
 }
 
-aside > div img{
+aside>div img {
     position: relative;
     width: 100%;
     margin-left: 20px;
 }
 
-aside > div{
+aside>div {
     margin: 20px;
 }
 
-aside > div p, h1{
+aside>div p,
+h1 {
     text-align: center;
 }
-/* Fin page index */ 
+
+/* Fin page index */
 
 /* Début page romans */
 /* main */
@@ -123,7 +127,7 @@ article {
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 100px;
-    
+
 }
 
 h1,
@@ -133,7 +137,7 @@ article>div {
     margin-bottom: 20px;
 }
 
-h1{
+h1 {
     text-decoration: underline;
 }
 
@@ -151,42 +155,73 @@ section>article>div i {
     color: black;
 }
 
-h2{
+h2 {
     text-align: center;
 }
+
 /* Fin page Romans */
 
+/* Début page univers articles */
+.card-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Fin pag univers articles */
+
+/* Début page univers langues et alphabet */
+.alphabet,
+.langues,
+.calendrier {
+    text-align: center;
+    border: 2px solid #612800;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 6px 6px 6px black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.alphabet > img{
+    margin-bottom: 10px;
+}
+
+.intro_langues {
+    margin: 20px;
+    padding: auto;
+}
+
+
+/* Fin page langues et alphabet */
 
 /* footer */
-footer > div{
+footer>div {
     display: flex;
     justify-content: space-between;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-footer > div p{
+footer>div p {
     margin-top: 20px;
 }
 
-footer > div i{
+footer>div i {
     font-size: 3.5em;
     margin-left: 20px;
 }
 
-footer > div a:nth-child(1){
+footer>div a:nth-child(1) {
     color: #046ee5
 }
 
-footer > div a:nth-child(2){
+footer>div a:nth-child(2) {
     color: #1da1f2;
 }
 
-footer > div a:nth-child(3){
+footer>div a:nth-child(3) {
     color: #934bc8;
 }
 
-footer > div a:nth-child(4){
+footer>div a:nth-child(4) {
     color: #ff0000;
 }
-
