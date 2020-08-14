@@ -158,7 +158,6 @@ section>article>div i {
 h2 {
     text-align: center;
 }
-
 /* Fin page Romans */
 
 /* Début page univers articles */
@@ -167,7 +166,19 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* Fin pag univers articles */
+/* icone amazon */
+.liens i{
+    font-size: 3em;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: black;
+    
+}
+
+.liens{
+    text-align: center;
+}
+/* Fin page univers articles */
 
 /* Début page univers langues et alphabet */
 .alphabet,
@@ -189,8 +200,6 @@ h2 {
     margin: 20px;
     padding: auto;
 }
-
-
 /* Fin page langues et alphabet */
 
 /* footer */
